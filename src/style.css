@@ -22,25 +22,19 @@ body {
     align-items: center;
 }
 
-.suit {
-    font-size: 10em; 
-    color: black; 
-    position: absolute;
-}
-
-.suit.top-left {
+.palo-top-left {
     top: 10px;
     left: 15px;
     font-size: 5em; 
 }
-.suit.bottom-right {
+.palo-bottom-right {
     bottom: 10px;
     right: 15px;
     transform: rotate(180deg); 
     font-size: 5em;
 }
 
-.rank {
+.number {
     font-size: 8em; 
     font-weight: bold;
     color: black;
