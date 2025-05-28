@@ -26,5 +26,11 @@ document.getElementById("new-card-button").addEventListener("click", () => {
     displayCard(card);
 });
 
-// Display an initial card when the page loads
 displayCard(getRandomCard());
+
+setTimeout(() => {
+    const card = getRandomCard();
+    displayCard(card);
+}
+,3000 ); 
+
